@@ -41,7 +41,7 @@ directory = os.getcwd()
 pdb_files = [f for f in os.listdir(directory) if f.endswith(".pdb")]
 
 
-distance_cutoff = 3.0
+distance_cutoff = 3.7
 receptor_chain = "A"
 ligand_chains = ("L", "H")
 
