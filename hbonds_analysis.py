@@ -1,7 +1,7 @@
 import os
 from Bio.PDB import PDBParser, NeighborSearch
 
-def calculate_interchain_hydrogen_bonds(pdb_file, receptor_chain="A", ligand_chains=("L", "H"), distance_cutoff=3.0):
+def calculate_interchain_hydrogen_bonds(pdb_file, receptor_chain="A", ligand_chains=("L", "H"), distance_cutoff=3.7):
    
     parser = PDBParser(QUIET=True)
     structure = parser.get_structure(pdb_file, pdb_file)
